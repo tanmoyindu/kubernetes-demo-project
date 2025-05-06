@@ -19,7 +19,7 @@ spec:
           image: nanajanashia/k8-demo-app:v1.0
           ports:
             - containerPort: 3000
-            env:
+          env:
             - name: USER_NAME
               valueFrom:
                 secretKeyRef:
